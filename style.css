@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.my-title {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mybox {
+    border: 1px solid black;
+    width: calc((100% / 5) - 15px);
+    margin: 5px;
+    text-align: center;
+    
+}
